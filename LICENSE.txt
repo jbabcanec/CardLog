@@ -1,0 +1,7 @@
+Copyright (c) 2023, Joseph J Babcanec
+
+All rights reserved.
+
+Redistribution, use, or modification of this software without written permission from Joseph J Babcanec is strictly prohibited.
+
+For inquiries, contact joseph.babz@gmail.com
