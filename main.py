@@ -18,10 +18,8 @@ import logging
 logging.basicConfig(filename='app.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def write_ini_file(inventory_filename):
-    """Writes the name of the inventory file to an .ini file."""
     config = configparser.ConfigParser()
-    config["DEFAULT"] = {"InventoryFile": inventory_filename}
-    
+    config["DEFAULT"]["InventoryFile"] = inventory_filename
     with open("config.ini", "w") as configfile:
         config.write(configfile)
 
@@ -56,7 +54,6 @@ class PokemonCardApp(QMainWindow):
         self.card_search = CardSearch(self)
         self.init_ui()
         
-
     def init_ui(self):
         # Create a central widget for the QMainWindow
         central_widget = QWidget(self)
@@ -109,6 +106,12 @@ class PokemonCardApp(QMainWindow):
         self.add_to_collection_button.setMaximumWidth(150)
         self.add_to_collection_button.clicked.connect(self.add_to_collection)
         dock_layout.addWidget(self.add_to_collection_button)
+
+        # Change Inventory button
+        self.change_inventory_button = QPushButton('Change Collection', dock_widget)
+        self.change_inventory_button.setMaximumWidth(150)
+        self.change_inventory_button.clicked.connect(self.change_inventory)
+        dock_layout.addWidget(self.change_inventory_button)
 
         # New Inventory button
         self.new_inventory_button = QPushButton('New Collection', dock_widget)
@@ -391,7 +394,6 @@ class PokemonCardApp(QMainWindow):
             else:
                 self.show_fading_message('Please select a card from the table first.')
 
-
     def highlight_current_card(self):
         cursor = self.display_area.textCursor()
         cursor.movePosition(QTextCursor.Start)
@@ -400,7 +402,7 @@ class PokemonCardApp(QMainWindow):
         self.display_area.setTextCursor(cursor)
 
     def view_inventory(self):
-        inventory_path = read_ini_file()
+        inventory_path = read_ini_file() # Read the inventory file path from the ini file
         if not os.path.exists(inventory_path):
             choice, ok = QInputDialog.getItem(self, "Inventory Selection", "Do you want to:", ["Select an existing inventory file", "Create a new inventory file"], 0, False)
             if not ok:
@@ -426,7 +428,8 @@ class PokemonCardApp(QMainWindow):
             else:
                 return
 
-        self.collection_window = InventoryWindow(self)
+        # Pass the inventory path to the InventoryWindow
+        self.collection_window = InventoryWindow(self, inventory_path)
         self.collection_window.load_inventory()
         self.collection_window.show()
 
@@ -459,6 +462,22 @@ class PokemonCardApp(QMainWindow):
             
         except Exception as e:
             QMessageBox.critical(self, "Error", f"Failed to create new inventory. Error: {str(e)}")
+
+    def change_inventory(self):
+        file_path, _ = QFileDialog.getOpenFileName(self, "Select Inventory File", "", "Excel Files (*.xlsx);;All Files (*)")
+        
+        if file_path:
+            # Close the current collection window
+            if hasattr(self, 'collection_window') and self.collection_window:
+                self.collection_window.close()
+
+            # If necessary, update the .ini file with the new inventory path
+            write_ini_file(file_path)
+
+            # Create and show a new collection window
+            self.collection_window = InventoryWindow(self, file_path) # Pass the file_path to the InventoryWindow constructor
+            self.collection_window.load_inventory()
+            self.collection_window.show()
 
     def prev_image(self):
         if self.image_urls:
@@ -729,9 +748,10 @@ class CardSearch:
             self.app.image_label.clear()
 
 class InventoryWindow(QMainWindow):
-    def __init__(self, parent_app=None):
+    def __init__(self, parent_app=None, inventory_path=None):
         super(InventoryWindow, self).__init__()
         self.parent_app = parent_app
+        self.inventory_path = inventory_path
         
         # Set window attributes
         self.setWindowIcon(QIcon("pokemon.ico"))
@@ -778,9 +798,15 @@ class InventoryWindow(QMainWindow):
         self.resize(1200, 500)
 
     def load_inventory(self):
+        # Use the inventory_path attribute to load the inventory
+        if os.path.exists(self.inventory_path):
+            self.inventory = pd.read_excel(self.inventory_path)
+        else:
+            self.inventory = pd.DataFrame()
+
         # Clear the table first
         self.table.setRowCount(0)
-        
+
         # Set the columns to match the DataFrame's columns
         columns = ['Name', 'ID', 'Series', 'Release Date', 'Market Price', 'High Price', 'Mid Price', 'Low Price', 'Card Type', 'Count']
 
@@ -811,7 +837,7 @@ class InventoryWindow(QMainWindow):
         delete_btn_column = self.table.columnCount()
         self.table.setColumnCount(delete_btn_column + 1)
         self.table.setHorizontalHeaderItem(delete_btn_column, QTableWidgetItem("Delete"))
-        
+
         for index in range(self.table.rowCount()):
             delete_btn = QPushButton("Delete")
             delete_btn.clicked.connect(lambda _, idx=index: self.delete_row(idx))
@@ -821,17 +847,17 @@ class InventoryWindow(QMainWindow):
         uptick_btn_column = self.table.columnCount()
         self.table.setColumnCount(uptick_btn_column + 1)
         self.table.setHorizontalHeaderItem(uptick_btn_column, QTableWidgetItem("Add"))
-            
+
         downtick_btn_column = self.table.columnCount()
         self.table.setColumnCount(downtick_btn_column + 1)
         self.table.setHorizontalHeaderItem(downtick_btn_column, QTableWidgetItem("Subtract"))
-            
+
         for index in range(self.table.rowCount()):
             # Add button
             add_btn = QPushButton("+1")
             add_btn.clicked.connect(lambda _, idx=index: self.add_to_count(idx))
             self.table.setCellWidget(index, uptick_btn_column, add_btn)
-                
+
             # Subtract button
             subtract_btn = QPushButton("-1")
             subtract_btn.clicked.connect(lambda _, idx=index: self.subtract_from_count(idx))

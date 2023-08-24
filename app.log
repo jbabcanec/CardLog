@@ -1506,3 +1506,319 @@
 2023-08-22 00:03:50,314 - DEBUG - Number of combined cards: 42
 2023-08-22 00:03:50,318 - DEBUG - Sorting combined cards.
 2023-08-22 00:03:50,319 - INFO - Updating the image.
+2023-08-23 18:47:31,567 - INFO - Getting the search input.
+2023-08-23 18:47:31,567 - DEBUG - Search input: rhyperior
+2023-08-23 18:47:31,567 - INFO - Searching by name.
+2023-08-23 18:47:31,571 - INFO - Searching by set number.
+2023-08-23 18:47:31,571 - DEBUG - Number of combined cards: 14
+2023-08-23 18:47:31,577 - DEBUG - Sorting combined cards.
+2023-08-23 18:47:31,581 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:47:32,436 - DEBUG - https://images.pokemontcg.io:443 "GET /swsh11/91_hires.png HTTP/1.1" 200 657992
+2023-08-23 18:47:32,555 - INFO - Updating the image.
+2023-08-23 18:47:39,838 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:47:39,959 - DEBUG - https://images.pokemontcg.io:443 "GET /swsh1/99_hires.png HTTP/1.1" 200 687282
+2023-08-23 18:47:40,577 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:47:40,701 - DEBUG - https://images.pokemontcg.io:443 "GET /sm10/95_hires.png HTTP/1.1" 200 680287
+2023-08-23 18:47:41,244 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:47:41,383 - DEBUG - https://images.pokemontcg.io:443 "GET /sm3/67_hires.png HTTP/1.1" 200 699994
+2023-08-23 18:47:41,913 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:47:42,036 - DEBUG - https://images.pokemontcg.io:443 "GET /xy5/76_hires.png HTTP/1.1" 200 670770
+2023-08-23 18:47:42,493 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:47:42,630 - DEBUG - https://images.pokemontcg.io:443 "GET /xy5/77_hires.png HTTP/1.1" 200 698520
+2023-08-23 18:47:46,871 - INFO - Getting the search input.
+2023-08-23 18:47:46,871 - DEBUG - Search input: rhyperior
+2023-08-23 18:47:46,871 - INFO - Searching by name.
+2023-08-23 18:47:46,875 - INFO - Searching by set number.
+2023-08-23 18:47:46,875 - DEBUG - Number of combined cards: 14
+2023-08-23 18:47:46,878 - DEBUG - Sorting combined cards.
+2023-08-23 18:47:46,879 - INFO - Updating the image.
+2023-08-23 18:47:48,672 - INFO - Getting the search input.
+2023-08-23 18:47:48,672 - DEBUG - Search input: rhyperior
+2023-08-23 18:47:48,672 - INFO - Searching by name.
+2023-08-23 18:47:48,674 - INFO - Searching by set number.
+2023-08-23 18:47:48,675 - DEBUG - Number of combined cards: 14
+2023-08-23 18:47:48,678 - DEBUG - Sorting combined cards.
+2023-08-23 18:47:48,678 - INFO - Updating the image.
+2023-08-23 18:48:25,309 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:48:25,447 - DEBUG - https://images.pokemontcg.io:443 "GET /dpp/DP29_hires.png HTTP/1.1" 200 956796
+2023-08-23 18:48:26,283 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:48:26,418 - DEBUG - https://images.pokemontcg.io:443 "GET /dp6/145_hires.png HTTP/1.1" 200 856561
+2023-08-23 18:48:27,301 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:48:27,434 - DEBUG - https://images.pokemontcg.io:443 "GET /swsh3/181_hires.png HTTP/1.1" 200 572261
+2023-08-23 18:48:33,413 - INFO - Getting the search input.
+2023-08-23 18:48:33,413 - DEBUG - Search input: rhyperior
+2023-08-23 18:48:33,413 - INFO - Searching by name.
+2023-08-23 18:48:33,415 - INFO - Searching by set number.
+2023-08-23 18:48:33,416 - DEBUG - Number of combined cards: 14
+2023-08-23 18:48:33,419 - DEBUG - Sorting combined cards.
+2023-08-23 18:48:33,420 - INFO - Updating the image.
+2023-08-23 18:48:45,482 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:48:45,629 - DEBUG - https://images.pokemontcg.io:443 "GET /swsh3/95_hires.png HTTP/1.1" 200 686322
+2023-08-23 18:48:48,819 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:48:48,956 - DEBUG - https://images.pokemontcg.io:443 "GET /dp1/12_hires.png HTTP/1.1" 200 913584
+2023-08-23 18:49:20,418 - INFO - Getting the search input.
+2023-08-23 18:49:20,418 - DEBUG - Search input: sylveon
+2023-08-23 18:49:20,418 - INFO - Searching by name.
+2023-08-23 18:49:20,420 - INFO - Searching by set number.
+2023-08-23 18:49:20,421 - DEBUG - Number of combined cards: 27
+2023-08-23 18:49:20,425 - DEBUG - Sorting combined cards.
+2023-08-23 18:49:20,427 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:49:20,561 - DEBUG - https://images.pokemontcg.io:443 "GET /pgo/35_hires.png HTTP/1.1" 200 598104
+2023-08-23 18:49:20,686 - INFO - Updating the image.
+2023-08-23 18:49:23,530 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:49:23,811 - DEBUG - https://images.pokemontcg.io:443 "GET /sma/SV76_hires.png HTTP/1.1" 200 973717
+2023-08-23 18:49:30,064 - INFO - Getting the search input.
+2023-08-23 18:49:30,064 - DEBUG - Search input: sylveon
+2023-08-23 18:49:30,064 - INFO - Searching by name.
+2023-08-23 18:49:30,067 - INFO - Searching by set number.
+2023-08-23 18:49:30,067 - DEBUG - Number of combined cards: 27
+2023-08-23 18:49:30,070 - DEBUG - Sorting combined cards.
+2023-08-23 18:49:30,071 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:49:30,197 - DEBUG - https://images.pokemontcg.io:443 "GET /swsh7/212_hires.png HTTP/1.1" 200 798820
+2023-08-23 18:49:30,328 - INFO - Updating the image.
+2023-08-23 18:49:32,047 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:49:32,178 - DEBUG - https://images.pokemontcg.io:443 "GET /sm10/225_hires.png HTTP/1.1" 200 458147
+2023-08-23 18:49:32,865 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:49:32,993 - DEBUG - https://images.pokemontcg.io:443 "GET /sm10/130_hires.png HTTP/1.1" 200 715843
+2023-08-23 18:52:44,068 - INFO - Getting the search input.
+2023-08-23 18:52:44,069 - DEBUG - Search input: sylveon
+2023-08-23 18:52:44,069 - INFO - Searching by name.
+2023-08-23 18:52:44,071 - INFO - Searching by set number.
+2023-08-23 18:52:44,072 - DEBUG - Number of combined cards: 27
+2023-08-23 18:52:44,074 - DEBUG - Sorting combined cards.
+2023-08-23 18:52:44,075 - INFO - Updating the image.
+2023-08-23 18:53:06,234 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:53:06,739 - DEBUG - https://images.pokemontcg.io:443 "GET /sm2/92_hires.png HTTP/1.1" 200 701458
+2023-08-23 18:53:08,463 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:53:08,587 - DEBUG - https://images.pokemontcg.io:443 "GET /swsh7/74_hires.png HTTP/1.1" 200 579741
+2023-08-23 18:53:30,742 - INFO - Getting the search input.
+2023-08-23 18:53:30,742 - DEBUG - Search input: ursuluna
+2023-08-23 18:53:30,742 - INFO - Searching by name.
+2023-08-23 18:53:30,752 - INFO - Searching by set number.
+2023-08-23 18:53:30,753 - DEBUG - Number of combined cards: 2
+2023-08-23 18:53:30,755 - DEBUG - Sorting combined cards.
+2023-08-23 18:53:30,756 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:53:30,892 - DEBUG - https://images.pokemontcg.io:443 "GET /swsh10/124_hires.png HTTP/1.1" 200 654307
+2023-08-23 18:53:31,001 - INFO - Updating the image.
+2023-08-23 18:53:33,981 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:53:34,120 - DEBUG - https://images.pokemontcg.io:443 "GET /swsh12/102_hires.png HTTP/1.1" 200 603238
+2023-08-23 18:53:42,392 - INFO - Getting the search input.
+2023-08-23 18:53:42,392 - DEBUG - Search input: ursuluna
+2023-08-23 18:53:42,392 - INFO - Searching by name.
+2023-08-23 18:53:42,401 - INFO - Searching by set number.
+2023-08-23 18:53:42,402 - DEBUG - Number of combined cards: 2
+2023-08-23 18:53:42,404 - DEBUG - Sorting combined cards.
+2023-08-23 18:53:42,404 - INFO - Updating the image.
+2023-08-23 18:53:43,144 - INFO - Getting the search input.
+2023-08-23 18:53:43,144 - DEBUG - Search input: ursuluna
+2023-08-23 18:53:43,144 - INFO - Searching by name.
+2023-08-23 18:53:43,153 - INFO - Searching by set number.
+2023-08-23 18:53:43,154 - DEBUG - Number of combined cards: 2
+2023-08-23 18:53:43,156 - DEBUG - Sorting combined cards.
+2023-08-23 18:53:43,157 - INFO - Updating the image.
+2023-08-23 18:53:56,807 - INFO - Getting the search input.
+2023-08-23 18:53:56,807 - DEBUG - Search input: mew
+2023-08-23 18:53:56,807 - INFO - Searching by name.
+2023-08-23 18:53:56,810 - INFO - Searching by set number.
+2023-08-23 18:53:56,811 - DEBUG - Number of combined cards: 119
+2023-08-23 18:53:56,815 - DEBUG - Sorting combined cards.
+2023-08-23 18:53:56,816 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:53:56,962 - DEBUG - https://images.pokemontcg.io:443 "GET /swsh12pt5gg/GG10_hires.png HTTP/1.1" 200 651827
+2023-08-23 18:53:57,078 - INFO - Updating the image.
+2023-08-23 18:54:04,420 - INFO - Getting the search input.
+2023-08-23 18:54:04,420 - DEBUG - Search input: charmander
+2023-08-23 18:54:04,420 - INFO - Searching by name.
+2023-08-23 18:54:04,423 - INFO - Searching by set number.
+2023-08-23 18:54:04,423 - DEBUG - Number of combined cards: 38
+2023-08-23 18:54:04,426 - DEBUG - Sorting combined cards.
+2023-08-23 18:54:04,428 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:54:04,552 - DEBUG - https://images.pokemontcg.io:443 "GET /sv3/26_hires.png HTTP/1.1" 200 695712
+2023-08-23 18:54:04,713 - INFO - Updating the image.
+2023-08-23 18:54:19,771 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:54:19,933 - DEBUG - https://images.pokemontcg.io:443 "GET /pl4/59_hires.png HTTP/1.1" 200 810369
+2023-08-23 18:54:25,834 - INFO - Getting the search input.
+2023-08-23 18:54:25,835 - DEBUG - Search input: charmander
+2023-08-23 18:54:25,835 - INFO - Searching by name.
+2023-08-23 18:54:25,837 - INFO - Searching by set number.
+2023-08-23 18:54:25,838 - DEBUG - Number of combined cards: 38
+2023-08-23 18:54:25,841 - DEBUG - Sorting combined cards.
+2023-08-23 18:54:25,842 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:54:25,990 - DEBUG - https://images.pokemontcg.io:443 "GET /dp3/82_hires.png HTTP/1.1" 200 842458
+2023-08-23 18:54:26,140 - INFO - Updating the image.
+2023-08-23 18:54:32,198 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:54:32,334 - DEBUG - https://images.pokemontcg.io:443 "GET /ex3/98_hires.png HTTP/1.1" 200 1309960
+2023-08-23 18:54:37,585 - INFO - Getting the search input.
+2023-08-23 18:54:37,585 - DEBUG - Search input: charmander
+2023-08-23 18:54:37,585 - INFO - Searching by name.
+2023-08-23 18:54:37,587 - INFO - Searching by set number.
+2023-08-23 18:54:37,588 - DEBUG - Number of combined cards: 38
+2023-08-23 18:54:37,591 - DEBUG - Sorting combined cards.
+2023-08-23 18:54:37,591 - WARNING - No cards found.
+2023-08-23 18:54:40,327 - INFO - Getting the search input.
+2023-08-23 18:54:40,327 - DEBUG - Search input: charmander
+2023-08-23 18:54:40,327 - INFO - Searching by name.
+2023-08-23 18:54:40,330 - INFO - Searching by set number.
+2023-08-23 18:54:40,330 - DEBUG - Number of combined cards: 38
+2023-08-23 18:54:40,333 - DEBUG - Sorting combined cards.
+2023-08-23 18:54:40,334 - INFO - Updating the image.
+2023-08-23 18:54:45,818 - INFO - Getting the search input.
+2023-08-23 18:54:45,818 - DEBUG - Search input: charmander
+2023-08-23 18:54:45,818 - INFO - Searching by name.
+2023-08-23 18:54:45,820 - INFO - Searching by set number.
+2023-08-23 18:54:45,821 - DEBUG - Number of combined cards: 38
+2023-08-23 18:54:45,824 - DEBUG - Sorting combined cards.
+2023-08-23 18:54:45,825 - INFO - Updating the image.
+2023-08-23 18:58:48,870 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:58:49,379 - DEBUG - https://images.pokemontcg.io:443 "GET /pgo/8_hires.png HTTP/1.1" 200 678425
+2023-08-23 18:58:54,734 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:58:54,990 - DEBUG - https://images.pokemontcg.io:443 "GET /swshp/SWSH092_hires.png HTTP/1.1" 200 1215927
+2023-08-23 18:58:56,228 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:58:56,347 - DEBUG - https://images.pokemontcg.io:443 "GET /swshp/SWSH232_hires.png HTTP/1.1" 200 1252340
+2023-08-23 18:58:59,128 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-23 18:58:59,242 - DEBUG - https://images.pokemontcg.io:443 "GET /mcd21/9_hires.png HTTP/1.1" 200 1494977
+2023-08-23 18:59:04,704 - INFO - Getting the search input.
+2023-08-23 18:59:04,705 - DEBUG - Search input: charmander
+2023-08-23 18:59:04,705 - INFO - Searching by name.
+2023-08-23 18:59:04,707 - INFO - Searching by set number.
+2023-08-23 18:59:04,708 - DEBUG - Number of combined cards: 38
+2023-08-23 18:59:04,711 - DEBUG - Sorting combined cards.
+2023-08-23 18:59:04,712 - INFO - Updating the image.
+2023-08-23 18:59:08,079 - INFO - Getting the search input.
+2023-08-23 18:59:08,080 - DEBUG - Search input: charmander
+2023-08-23 18:59:08,080 - INFO - Searching by name.
+2023-08-23 18:59:08,082 - INFO - Searching by set number.
+2023-08-23 18:59:08,083 - DEBUG - Number of combined cards: 38
+2023-08-23 18:59:08,085 - DEBUG - Sorting combined cards.
+2023-08-23 18:59:08,086 - WARNING - No cards found.
+2023-08-23 18:59:09,905 - INFO - Getting the search input.
+2023-08-23 18:59:09,905 - DEBUG - Search input: charmander
+2023-08-23 18:59:09,906 - INFO - Searching by name.
+2023-08-23 18:59:09,908 - INFO - Searching by set number.
+2023-08-23 18:59:09,908 - DEBUG - Number of combined cards: 38
+2023-08-23 18:59:09,911 - DEBUG - Sorting combined cards.
+2023-08-23 18:59:09,912 - INFO - Updating the image.
+2023-08-23 18:59:25,453 - INFO - Getting the search input.
+2023-08-23 18:59:25,453 - DEBUG - Search input: charmander
+2023-08-23 18:59:25,453 - INFO - Searching by name.
+2023-08-23 18:59:25,456 - INFO - Searching by set number.
+2023-08-23 18:59:25,456 - DEBUG - Number of combined cards: 38
+2023-08-23 18:59:25,459 - DEBUG - Sorting combined cards.
+2023-08-23 18:59:25,460 - INFO - Updating the image.
+2023-08-24 10:52:12,154 - INFO - Getting the search input.
+2023-08-24 10:52:12,154 - DEBUG - Search input: ditto
+2023-08-24 10:52:12,154 - INFO - Searching by name.
+2023-08-24 10:52:36,359 - INFO - Getting the search input.
+2023-08-24 10:52:36,359 - DEBUG - Search input: ditto
+2023-08-24 10:52:36,359 - INFO - Searching by name.
+2023-08-24 10:52:36,364 - INFO - Searching by set number.
+2023-08-24 10:52:36,365 - DEBUG - Number of combined cards: 29
+2023-08-24 10:52:36,371 - DEBUG - Sorting combined cards.
+2023-08-24 10:52:36,375 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-24 10:52:37,092 - DEBUG - https://images.pokemontcg.io:443 "GET /swsh12pt5gg/GG22_hires.png HTTP/1.1" 200 603119
+2023-08-24 10:52:37,203 - INFO - Updating the image.
+2023-08-24 10:52:43,068 - INFO - Getting the search input.
+2023-08-24 10:52:43,068 - DEBUG - Search input: blaziken
+2023-08-24 10:52:43,068 - INFO - Searching by name.
+2023-08-24 10:52:43,070 - INFO - Searching by set number.
+2023-08-24 10:52:43,071 - DEBUG - Number of combined cards: 29
+2023-08-24 10:52:43,074 - DEBUG - Sorting combined cards.
+2023-08-24 10:52:43,075 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-24 10:52:43,189 - DEBUG - https://images.pokemontcg.io:443 "GET /swsh3/24_hires.png HTTP/1.1" 200 652601
+2023-08-24 10:52:43,325 - INFO - Updating the image.
+2023-08-24 11:00:57,647 - INFO - Getting the search input.
+2023-08-24 11:00:57,647 - DEBUG - Search input: ditto
+2023-08-24 11:00:57,647 - INFO - Searching by name.
+2023-08-24 11:01:10,216 - INFO - Getting the search input.
+2023-08-24 11:01:10,217 - DEBUG - Search input: ditto
+2023-08-24 11:01:10,217 - INFO - Searching by name.
+2023-08-24 11:01:10,220 - INFO - Searching by set number.
+2023-08-24 11:01:10,220 - DEBUG - Number of combined cards: 29
+2023-08-24 11:01:10,224 - DEBUG - Sorting combined cards.
+2023-08-24 11:01:10,228 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-24 11:01:10,902 - DEBUG - https://images.pokemontcg.io:443 "GET /swsh12pt5gg/GG22_hires.png HTTP/1.1" 200 603119
+2023-08-24 11:01:10,984 - INFO - Updating the image.
+2023-08-24 11:01:48,060 - INFO - Getting the search input.
+2023-08-24 11:01:48,061 - DEBUG - Search input: ditto
+2023-08-24 11:01:48,061 - INFO - Searching by name.
+2023-08-24 11:06:28,763 - INFO - Getting the search input.
+2023-08-24 11:06:28,763 - DEBUG - Search input: ditto
+2023-08-24 11:06:28,763 - INFO - Searching by name.
+2023-08-24 11:13:09,601 - INFO - Getting the search input.
+2023-08-24 11:13:09,601 - DEBUG - Search input: ditto
+2023-08-24 11:13:09,601 - INFO - Searching by name.
+2023-08-24 11:16:14,624 - INFO - Getting the search input.
+2023-08-24 11:16:14,625 - DEBUG - Search input: ditto
+2023-08-24 11:16:14,625 - INFO - Searching by name.
+2023-08-24 11:28:06,055 - INFO - Getting the search input.
+2023-08-24 11:28:06,055 - DEBUG - Search input: ditto
+2023-08-24 11:28:06,055 - INFO - Searching by name.
+2023-08-24 11:28:06,056 - INFO - Searching by set number.
+2023-08-24 11:28:06,057 - DEBUG - Number of combined cards: 0
+2023-08-24 11:28:06,058 - DEBUG - Sorting combined cards.
+2023-08-24 11:28:06,059 - WARNING - No cards found.
+2023-08-24 11:28:11,552 - INFO - Getting the search input.
+2023-08-24 11:28:11,553 - DEBUG - Search input: ditto
+2023-08-24 11:28:11,553 - INFO - Searching by name.
+2023-08-24 11:28:11,553 - INFO - Searching by set number.
+2023-08-24 11:28:11,554 - DEBUG - Number of combined cards: 0
+2023-08-24 11:28:11,554 - DEBUG - Sorting combined cards.
+2023-08-24 11:28:11,554 - WARNING - No cards found.
+2023-08-24 11:28:16,368 - INFO - Getting the search input.
+2023-08-24 11:28:16,369 - DEBUG - Search input: 1/132
+2023-08-24 11:28:16,369 - INFO - Searching by name.
+2023-08-24 11:28:16,369 - INFO - Searching by set number.
+2023-08-24 11:36:12,999 - INFO - Getting the search input.
+2023-08-24 11:36:13,000 - DEBUG - Search input: 1/132
+2023-08-24 11:36:13,000 - INFO - Searching by name.
+2023-08-24 11:36:13,006 - INFO - Searching by set number.
+2023-08-24 11:36:13,009 - DEBUG - Number of combined cards: 3
+2023-08-24 11:36:13,012 - DEBUG - Sorting combined cards.
+2023-08-24 11:36:13,015 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-24 11:36:13,519 - DEBUG - https://images.pokemontcg.io:443 "GET /dp3/1_hires.png HTTP/1.1" 200 894865
+2023-08-24 11:36:13,656 - INFO - Updating the image.
+2023-08-24 12:10:50,490 - INFO - Getting the search input.
+2023-08-24 12:10:50,490 - DEBUG - Search input: ditto
+2023-08-24 12:10:50,491 - INFO - Searching by name.
+2023-08-24 12:10:50,491 - INFO - Searching by set number.
+2023-08-24 12:10:50,492 - DEBUG - Number of combined cards: 1
+2023-08-24 12:15:31,136 - INFO - Getting the search input.
+2023-08-24 12:15:31,136 - DEBUG - Search input: ditto
+2023-08-24 12:15:31,136 - INFO - Searching by name.
+2023-08-24 12:15:31,137 - INFO - Searching by set number.
+2023-08-24 12:15:31,138 - DEBUG - Number of combined cards: 1
+2023-08-24 12:15:31,140 - DEBUG - Sorting combined cards.
+2023-08-24 12:17:35,612 - INFO - Getting the search input.
+2023-08-24 12:17:35,612 - DEBUG - Search input: ditto
+2023-08-24 12:17:35,612 - INFO - Searching by name.
+2023-08-24 12:17:35,615 - INFO - Searching by set number.
+2023-08-24 12:17:35,616 - DEBUG - Number of combined cards: 29
+2023-08-24 12:17:35,620 - DEBUG - Sorting combined cards.
+2023-08-24 12:17:35,623 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-24 12:17:36,136 - DEBUG - https://images.pokemontcg.io:443 "GET /swsh12pt5gg/GG22_hires.png HTTP/1.1" 200 603119
+2023-08-24 12:17:36,228 - INFO - Updating the image.
+2023-08-24 12:17:39,316 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-24 12:17:39,494 - DEBUG - https://images.pokemontcg.io:443 "GET /hgss4/17_hires.png HTTP/1.1" 200 854494
+2023-08-24 12:17:49,249 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-24 12:17:49,532 - DEBUG - https://images.pokemontcg.io:443 "GET /ex11/38_hires.png HTTP/1.1" 200 857711
+2023-08-24 13:08:23,955 - INFO - Getting the search input.
+2023-08-24 13:08:23,955 - DEBUG - Search input: ditto
+2023-08-24 13:08:23,955 - INFO - Searching by name.
+2023-08-24 13:08:23,958 - INFO - Searching by set number.
+2023-08-24 13:08:23,959 - DEBUG - Number of combined cards: 29
+2023-08-24 13:08:23,963 - DEBUG - Sorting combined cards.
+2023-08-24 13:08:23,967 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-24 13:08:24,626 - DEBUG - https://images.pokemontcg.io:443 "GET /swsh12pt5gg/GG22_hires.png HTTP/1.1" 200 603119
+2023-08-24 13:08:24,717 - INFO - Updating the image.
+2023-08-24 13:09:18,876 - INFO - Getting the search input.
+2023-08-24 13:09:18,876 - DEBUG - Search input: misty
+2023-08-24 13:09:18,876 - INFO - Searching by name.
+2023-08-24 13:09:18,879 - INFO - Searching by set number.
+2023-08-24 13:09:18,880 - DEBUG - Number of combined cards: 41
+2023-08-24 13:09:18,884 - DEBUG - Sorting combined cards.
+2023-08-24 13:09:18,887 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-24 13:09:19,005 - DEBUG - https://images.pokemontcg.io:443 "GET /gym1/18_hires.png HTTP/1.1" 200 788177
+2023-08-24 13:09:19,145 - INFO - Updating the image.
+2023-08-24 13:09:23,159 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-24 13:09:23,277 - DEBUG - https://images.pokemontcg.io:443 "GET /gym1/90_hires.png HTTP/1.1" 200 875236
+2023-08-24 13:09:24,120 - DEBUG - Starting new HTTPS connection (1): images.pokemontcg.io:443
+2023-08-24 13:09:24,231 - DEBUG - https://images.pokemontcg.io:443 "GET /gym1/86_hires.png HTTP/1.1" 200 802300
