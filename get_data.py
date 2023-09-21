@@ -3,7 +3,7 @@ from pokemontcgsdk import Card, RestClient
 import pandas as pd
 
 # Configure the API key
-RestClient.configure('9e843059-9a5d-4306-81ee-f1054d51849a')
+RestClient.configure('#')
 
 # Fetch all cards
 cards_data = []
